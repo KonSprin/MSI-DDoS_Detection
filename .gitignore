@@ -1,0 +1,22 @@
+# dataset — can be several GBs
+data/raw/
+data/processed/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+*.egg-info/
+dist/
+
+# Poetry
+poetry.lock
+
+# Jupyter
+.ipynb_checkpoints/
+
+# env & IDE
+.env
+.DS_Store
+.idea/
+.vscode/
