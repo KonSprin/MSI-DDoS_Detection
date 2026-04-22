@@ -18,7 +18,7 @@ poetry run jupyter notebook
 
 ## Dataset
 
-Download **CIC-DDoS2019** from https://www.unb.ca/cic/datasets/ddos-2019.html and place the CSV files in `data/raw/`. Raw data is not committed to the repo.
+Download **CIC-DDoS2019** from `https://www.unb.ca/cic/datasets/ddos-2019.html` and place the CSV files in `data/raw/`. Raw data is not committed to the repo.
 
 ## Project structure
 
