@@ -23,8 +23,10 @@ Download **CIC-DDoS2019** from `https://www.unb.ca/cic/datasets/ddos-2019.html` 
 ## Project structure
 
 ```txt
-data/
-  raw/          # raw CSVs (gitignored)
+data/             # (gitignored)
+  raw/ 
+    CSVs          # raw CSVs 
+    PCAPs         # raw PCAPs
   processed/    # cleaned data ready for training
 notebooks/      # one notebook per task (EDA, preprocessing, models, evaluation)
 src/
