@@ -3,7 +3,8 @@ name = "msi-ddos-detection"
 version = "0.1.0"
 description = "MSI Group Project"
 authors = [
-    {name = "Konrad Springer",email = "kossarpl@gmail.com"}
+    {name = "Konrad Springer",email = "kossarpl@gmail.com"},
+    {name = "Dawid Wolny", email = "dawid.wolny@student.pk.edu.pl"}
 ]
 readme = "README.md"
 requires-python = ">=3.11"
