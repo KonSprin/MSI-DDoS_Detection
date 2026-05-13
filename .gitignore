@@ -2,6 +2,9 @@
 data/raw/
 data/processed/
 
+# trained models
+models/
+
 # Python
 __pycache__/
 *.py[cod]
