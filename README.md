@@ -16,6 +16,23 @@ poetry install
 poetry run jupyter notebook
 ```
 
+## Running with Docker
+
+The easiest way to run the project is via Docker — no local Python setup required.
+
+```bash
+docker compose up --build
+```
+
+Then open Jupyter at `http://localhost:8888` (no password required).
+
+Run the notebooks in order:
+
+1. `02_preprocessing.ipynb` — cleans the raw data and saves `data/processed/ddos_basic_preprocessed.csv`
+2. `03_modeling.ipynb` — trains Random Forest and Linear SVM, evaluates on the test set, saves models
+
+Use `Kernel → Restart & Run All` in each notebook.
+
 ## Dataset
 
 Download **CIC-DDoS2019** from `https://www.unb.ca/cic/datasets/ddos-2019.html` and place the CSV files in `data/raw/`. Raw data is not committed to the repo.
